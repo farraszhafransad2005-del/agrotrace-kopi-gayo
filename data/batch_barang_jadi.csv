@@ -1,0 +1,15 @@
+fg_id,roast_ids,green_id,produk,tgl_kemas,jumlah_kemasan,tgl_kedaluwarsa,tujuan_distribusi,tgl_kirim,skor_intensitas,kategori_intensitas
+FG-GYO-2603-001,RST-001|RST-002|RST-003,GRN-01,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-03-21,160,2026-12-16,Kafe Kampus IPB,2026-03-30,41.9,Sedang
+FG-GYO-2604-002,RST-004|RST-005|RST-006,GRN-02,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-02,142,2026-12-28,Toko Daring,2026-04-07,55.8,Tinggi
+FG-GYO-2604-003,RST-007|RST-008,GRN-02,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-04,91,2026-12-30,Toko Kopi Bogor,2026-04-08,55.5,Tinggi
+FG-GYO-2604-004,RST-009|RST-010,GRN-03,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-21,99,2027-01-16,Kafe Kampus IPB,2026-04-28,69.1,Tinggi
+FG-GYO-2604-005,RST-011,GRN-03,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-21,63,2027-01-16,Toko Daring,2026-04-24,69.2,Tinggi
+FG-GYO-2603-006,RST-012|RST-013|RST-014,GRN-04,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-03-28,166,2026-12-23,Toko Kopi Bogor,2026-04-05,30.1,Rendah
+FG-GYO-2603-007,RST-015,GRN-04,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-03-28,55,2026-12-23,Distributor Jakarta,2026-04-02,45.8,Sedang
+FG-GYO-2603-008,RST-016|RST-017,GRN-05,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-03-26,102,2026-12-21,Kafe Kampus IPB,2026-04-03,38.1,Rendah
+FG-GYO-2603-009,RST-018,GRN-05,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-03-30,50,2026-12-25,Toko Kopi Bogor,2026-04-07,20.3,Rendah
+FG-GYO-2604-010,RST-019|RST-020|RST-021,GRN-06,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-29,168,2027-01-24,Toko Daring,2026-05-03,22.4,Rendah
+FG-GYO-2604-011,RST-022|RST-023,GRN-07,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-02,88,2026-12-28,Distributor Jakarta,2026-04-06,41.0,Rendah
+FG-GYO-2604-012,RST-024|RST-025|RST-026,GRN-07,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-04,156,2026-12-30,Kafe Kampus IPB,2026-04-12,44.9,Sedang
+FG-GYO-2604-013,RST-027|RST-028,GRN-08,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-24,106,2027-01-19,Toko Daring,2026-04-30,45.7,Sedang
+FG-GYO-2604-014,RST-029|RST-030|RST-031,GRN-08,Kopi Arabika Gayo Natural - Medium Roast - 200 g,2026-04-26,147,2027-01-21,Toko Daring,2026-05-04,47.2,Tinggi

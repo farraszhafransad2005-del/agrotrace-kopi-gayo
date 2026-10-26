@@ -1,0 +1,9 @@
+green_id,harvest_ids,tgl_hulling,berat_green_kg,rendemen_persen,ukuran_ayakan,cacat_per_300g,kadar_air_green_persen,skor_cupping,gudang,lama_simpan_hari
+GRN-01,PNN-001|PNN-002|PNN-003,2025-12-02,205.4,18.7,Screen 18,7,11.0,82.86,Gudang Green Bean Takengon,105
+GRN-02,PNN-004|PNN-005|PNN-006,2025-12-11,281.2,21.2,Screen 18,11,11.2,83.64,Gudang Green Bean Takengon,108
+GRN-03,PNN-007|PNN-008|PNN-009,2025-12-24,190.5,18.6,Screen 17,3,13.2,85.49,Gudang Green Bean Takengon,115
+GRN-04,PNN-010|PNN-011|PNN-012,2025-12-29,286.0,20.2,Screen 17,6,11.8,85.26,Gudang Green Bean Takengon,83
+GRN-05,PNN-013|PNN-014|PNN-015,2026-01-14,255.8,18.6,Screen 18,6,11.7,85.21,Gudang Green Bean Takengon,69
+GRN-06,PNN-016|PNN-017|PNN-018,2026-02-01,236.9,20.3,Screen 17,11,11.6,85.16,Gudang Green Bean Takengon,81
+GRN-07,PNN-019|PNN-020|PNN-021,2026-02-15,365.6,21.4,Screen 17,12,10.7,85.1,Gudang Green Bean Takengon,43
+GRN-08,PNN-022|PNN-023|PNN-024,2026-02-20,254.5,20.4,Screen 18,6,10.6,84.49,Gudang Green Bean Takengon,58

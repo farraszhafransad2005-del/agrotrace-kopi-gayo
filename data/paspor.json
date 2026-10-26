@@ -1,0 +1,2085 @@
+[
+ {
+  "fg_id": "FG-GYO-2603-001",
+  "roast_ids": "RST-001|RST-002|RST-003",
+  "green_id": "GRN-01",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-03-21",
+  "jumlah_kemasan": 160,
+  "tgl_kedaluwarsa": "2026-12-16",
+  "tujuan_distribusi": "Kafe Kampus IPB",
+  "tgl_kirim": "2026-03-30",
+  "skor_intensitas": 41.9,
+  "kategori_intensitas": "Sedang",
+  "panen": [
+   {
+    "harvest_id": "PNN-001",
+    "farm_id": "KBN-01",
+    "tgl_panen": "2025-10-20",
+    "berat_ceri_kg": 319.0,
+    "ceri_merah_persen": 93.4,
+    "ceri_apung_persen": 1.5,
+    "tgl_mulai_jemur": "2025-10-21",
+    "lama_jemur_hari": 18,
+    "tgl_selesai_jemur": "2025-11-08",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 12.1,
+    "petani": "Pak Ismail",
+    "kabupaten": "Bener Meriah",
+    "desa": "Bener Kelipah",
+    "ketinggian_mdpl": 1596,
+    "luas_ha": 3.0,
+    "varietas": "Ateng Super"
+   },
+   {
+    "harvest_id": "PNN-002",
+    "farm_id": "KBN-02",
+    "tgl_panen": "2025-10-26",
+    "berat_ceri_kg": 221.0,
+    "ceri_merah_persen": 95.7,
+    "ceri_apung_persen": 1.9,
+    "tgl_mulai_jemur": "2025-10-27",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2025-11-13",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.7,
+    "petani": "Bu Salmah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Atu Lintang",
+    "ketinggian_mdpl": 1462,
+    "luas_ha": 1.3,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-003",
+    "farm_id": "KBN-03",
+    "tgl_panen": "2025-10-28",
+    "berat_ceri_kg": 559.0,
+    "ceri_merah_persen": 93.2,
+    "ceri_apung_persen": 3.9,
+    "tgl_mulai_jemur": "2025-10-29",
+    "lama_jemur_hari": 18,
+    "tgl_selesai_jemur": "2025-11-16",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 12.0,
+    "petani": "Pak Rahmat",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Pegasing",
+    "ketinggian_mdpl": 1319,
+    "luas_ha": 0.8,
+    "varietas": "Ateng Super"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-01",
+   "harvest_ids": "PNN-001|PNN-002|PNN-003",
+   "tgl_hulling": "2025-12-02",
+   "berat_green_kg": 205.4,
+   "rendemen_persen": 18.7,
+   "ukuran_ayakan": "Screen 18",
+   "cacat_per_300g": 7,
+   "kadar_air_green_persen": 11.0,
+   "skor_cupping": 82.86,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 105
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-001",
+    "green_id": "GRN-01",
+    "tgl_roasting": "2026-03-17",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.1,
+    "suhu_charge_c": 196,
+    "suhu_drop_c": 212,
+    "durasi_menit": 11.3,
+    "susut_persen": 14.5,
+    "berat_sangrai_kg": 11.19
+   },
+   {
+    "roast_id": "RST-002",
+    "green_id": "GRN-01",
+    "tgl_roasting": "2026-03-17",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.6,
+    "suhu_charge_c": 197,
+    "suhu_drop_c": 215,
+    "durasi_menit": 12.9,
+    "susut_persen": 13.3,
+    "berat_sangrai_kg": 10.92
+   },
+   {
+    "roast_id": "RST-003",
+    "green_id": "GRN-01",
+    "tgl_roasting": "2026-03-18",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.5,
+    "suhu_charge_c": 196,
+    "suhu_drop_c": 214,
+    "durasi_menit": 12.0,
+    "susut_persen": 15.0,
+    "berat_sangrai_kg": 10.63
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-01: 11.0%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 32.0 kg vs sangrai 32.7 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "18.7%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2604-002",
+  "roast_ids": "RST-004|RST-005|RST-006",
+  "green_id": "GRN-02",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-02",
+  "jumlah_kemasan": 142,
+  "tgl_kedaluwarsa": "2026-12-28",
+  "tujuan_distribusi": "Toko Daring",
+  "tgl_kirim": "2026-04-07",
+  "skor_intensitas": 55.8,
+  "kategori_intensitas": "Tinggi",
+  "panen": [
+   {
+    "harvest_id": "PNN-004",
+    "farm_id": "KBN-04",
+    "tgl_panen": "2025-11-03",
+    "berat_ceri_kg": 569.0,
+    "ceri_merah_persen": 99.0,
+    "ceri_apung_persen": 3.3,
+    "tgl_mulai_jemur": "2025-11-04",
+    "lama_jemur_hari": 18,
+    "tgl_selesai_jemur": "2025-11-22",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.6,
+    "petani": "Pak Zulkifli",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Ketol",
+    "ketinggian_mdpl": 1566,
+    "luas_ha": 2.7,
+    "varietas": "Gayo 2"
+   },
+   {
+    "harvest_id": "PNN-005",
+    "farm_id": "KBN-05",
+    "tgl_panen": "2025-11-06",
+    "berat_ceri_kg": 280.0,
+    "ceri_merah_persen": 95.0,
+    "ceri_apung_persen": 2.4,
+    "tgl_mulai_jemur": "2025-11-07",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2025-11-23",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 12.3,
+    "petani": "Bu Nurhayati",
+    "kabupaten": "Bener Meriah",
+    "desa": "Wih Pesam",
+    "ketinggian_mdpl": 1542,
+    "luas_ha": 1.5,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-006",
+    "farm_id": "KBN-06",
+    "tgl_panen": "2025-11-10",
+    "berat_ceri_kg": 475.0,
+    "ceri_merah_persen": null,
+    "ceri_apung_persen": 2.6,
+    "tgl_mulai_jemur": "2025-11-11",
+    "lama_jemur_hari": 19,
+    "tgl_selesai_jemur": "2025-11-30",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.3,
+    "petani": "Pak Hasballah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Bebesen",
+    "ketinggian_mdpl": 1327,
+    "luas_ha": 1.9,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-02",
+   "harvest_ids": "PNN-004|PNN-005|PNN-006",
+   "tgl_hulling": "2025-12-11",
+   "berat_green_kg": 281.2,
+   "rendemen_persen": 21.2,
+   "ukuran_ayakan": "Screen 18",
+   "cacat_per_300g": 11,
+   "kadar_air_green_persen": 11.2,
+   "skor_cupping": 83.64,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 108
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-004",
+    "green_id": "GRN-02",
+    "tgl_roasting": "2026-03-29",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 10.6,
+    "suhu_charge_c": 200,
+    "suhu_drop_c": 214,
+    "durasi_menit": 14.1,
+    "susut_persen": 14.9,
+    "berat_sangrai_kg": 9.02
+   },
+   {
+    "roast_id": "RST-005",
+    "green_id": "GRN-02",
+    "tgl_roasting": "2026-03-29",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.3,
+    "suhu_charge_c": 204,
+    "suhu_drop_c": 211,
+    "durasi_menit": 12.5,
+    "susut_persen": 15.6,
+    "berat_sangrai_kg": 10.39
+   },
+   {
+    "roast_id": "RST-006",
+    "green_id": "GRN-02",
+    "tgl_roasting": "2026-03-30",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 11.8,
+    "suhu_charge_c": 201,
+    "suhu_drop_c": 209,
+    "durasi_menit": 12.4,
+    "susut_persen": 13.9,
+    "berat_sangrai_kg": 10.15
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-02: 11.2%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 28.4 kg vs sangrai 29.6 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": false,
+    "catatan": "kosong: ceri_merah_persen"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "21.2%"
+   }
+  ],
+  "status_audit": "Perlu ditinjau"
+ },
+ {
+  "fg_id": "FG-GYO-2604-003",
+  "roast_ids": "RST-007|RST-008",
+  "green_id": "GRN-02",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-04",
+  "jumlah_kemasan": 91,
+  "tgl_kedaluwarsa": "2026-12-30",
+  "tujuan_distribusi": "Toko Kopi Bogor",
+  "tgl_kirim": "2026-04-08",
+  "skor_intensitas": 55.5,
+  "kategori_intensitas": "Tinggi",
+  "panen": [
+   {
+    "harvest_id": "PNN-004",
+    "farm_id": "KBN-04",
+    "tgl_panen": "2025-11-03",
+    "berat_ceri_kg": 569.0,
+    "ceri_merah_persen": 99.0,
+    "ceri_apung_persen": 3.3,
+    "tgl_mulai_jemur": "2025-11-04",
+    "lama_jemur_hari": 18,
+    "tgl_selesai_jemur": "2025-11-22",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.6,
+    "petani": "Pak Zulkifli",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Ketol",
+    "ketinggian_mdpl": 1566,
+    "luas_ha": 2.7,
+    "varietas": "Gayo 2"
+   },
+   {
+    "harvest_id": "PNN-005",
+    "farm_id": "KBN-05",
+    "tgl_panen": "2025-11-06",
+    "berat_ceri_kg": 280.0,
+    "ceri_merah_persen": 95.0,
+    "ceri_apung_persen": 2.4,
+    "tgl_mulai_jemur": "2025-11-07",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2025-11-23",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 12.3,
+    "petani": "Bu Nurhayati",
+    "kabupaten": "Bener Meriah",
+    "desa": "Wih Pesam",
+    "ketinggian_mdpl": 1542,
+    "luas_ha": 1.5,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-006",
+    "farm_id": "KBN-06",
+    "tgl_panen": "2025-11-10",
+    "berat_ceri_kg": 475.0,
+    "ceri_merah_persen": null,
+    "ceri_apung_persen": 2.6,
+    "tgl_mulai_jemur": "2025-11-11",
+    "lama_jemur_hari": 19,
+    "tgl_selesai_jemur": "2025-11-30",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.3,
+    "petani": "Pak Hasballah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Bebesen",
+    "ketinggian_mdpl": 1327,
+    "luas_ha": 1.9,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-02",
+   "harvest_ids": "PNN-004|PNN-005|PNN-006",
+   "tgl_hulling": "2025-12-11",
+   "berat_green_kg": 281.2,
+   "rendemen_persen": 21.2,
+   "ukuran_ayakan": "Screen 18",
+   "cacat_per_300g": 11,
+   "kadar_air_green_persen": 11.2,
+   "skor_cupping": 83.64,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 108
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-007",
+    "green_id": "GRN-02",
+    "tgl_roasting": "2026-03-30",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 10.5,
+    "suhu_charge_c": 202,
+    "suhu_drop_c": 216,
+    "durasi_menit": 12.5,
+    "susut_persen": 14.2,
+    "berat_sangrai_kg": 9.01
+   },
+   {
+    "roast_id": "RST-008",
+    "green_id": "GRN-02",
+    "tgl_roasting": "2026-03-31",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 11.5,
+    "suhu_charge_c": 198,
+    "suhu_drop_c": 210,
+    "durasi_menit": 9.9,
+    "susut_persen": 22.4,
+    "berat_sangrai_kg": 8.92
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-02: 11.2%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": false,
+    "catatan": "RST-008: 22.4%"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": false,
+    "catatan": "kemasan 18.2 kg vs sangrai 17.9 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": false,
+    "catatan": "kosong: ceri_merah_persen"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "21.2%"
+   }
+  ],
+  "status_audit": "Perlu ditinjau"
+ },
+ {
+  "fg_id": "FG-GYO-2604-004",
+  "roast_ids": "RST-009|RST-010",
+  "green_id": "GRN-03",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-21",
+  "jumlah_kemasan": 99,
+  "tgl_kedaluwarsa": "2027-01-16",
+  "tujuan_distribusi": "Kafe Kampus IPB",
+  "tgl_kirim": "2026-04-28",
+  "skor_intensitas": 69.1,
+  "kategori_intensitas": "Tinggi",
+  "panen": [
+   {
+    "harvest_id": "PNN-007",
+    "farm_id": "KBN-07",
+    "tgl_panen": "2025-11-13",
+    "berat_ceri_kg": 259.0,
+    "ceri_merah_persen": 96.4,
+    "ceri_apung_persen": 1.2,
+    "tgl_mulai_jemur": "2025-11-14",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2025-12-01",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.9,
+    "petani": "Pak Anwar",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Kebayakan",
+    "ketinggian_mdpl": 1444,
+    "luas_ha": 3.2,
+    "varietas": "Ateng Super"
+   },
+   {
+    "harvest_id": "PNN-008",
+    "farm_id": "KBN-08",
+    "tgl_panen": "2025-11-18",
+    "berat_ceri_kg": 485.0,
+    "ceri_merah_persen": 92.7,
+    "ceri_apung_persen": 3.8,
+    "tgl_mulai_jemur": "2025-11-19",
+    "lama_jemur_hari": 21,
+    "tgl_selesai_jemur": "2025-12-10",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.4,
+    "petani": "Bu Fatimah",
+    "kabupaten": "Bener Meriah",
+    "desa": "Permata",
+    "ketinggian_mdpl": 1432,
+    "luas_ha": 2.3,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-009",
+    "farm_id": "KBN-09",
+    "tgl_panen": "2025-11-23",
+    "berat_ceri_kg": 278.0,
+    "ceri_merah_persen": 97.6,
+    "ceri_apung_persen": 2.1,
+    "tgl_mulai_jemur": "2025-11-24",
+    "lama_jemur_hari": 19,
+    "tgl_selesai_jemur": "2025-12-13",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.8,
+    "petani": "Pak Muksin",
+    "kabupaten": "Bener Meriah",
+    "desa": "Bener Kelipah",
+    "ketinggian_mdpl": 1395,
+    "luas_ha": 1.2,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-03",
+   "harvest_ids": "PNN-007|PNN-008|PNN-009",
+   "tgl_hulling": "2025-12-24",
+   "berat_green_kg": 190.5,
+   "rendemen_persen": 18.6,
+   "ukuran_ayakan": "Screen 17",
+   "cacat_per_300g": 3,
+   "kadar_air_green_persen": 13.2,
+   "skor_cupping": 85.49,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 115
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-009",
+    "green_id": "GRN-03",
+    "tgl_roasting": "2026-04-18",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 10.5,
+    "suhu_charge_c": 203,
+    "suhu_drop_c": 216,
+    "durasi_menit": 13.1,
+    "susut_persen": 14.4,
+    "berat_sangrai_kg": 8.98
+   },
+   {
+    "roast_id": "RST-010",
+    "green_id": "GRN-03",
+    "tgl_roasting": "2026-04-18",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.6,
+    "suhu_charge_c": 196,
+    "suhu_drop_c": 216,
+    "durasi_menit": 12.9,
+    "susut_persen": 14.8,
+    "berat_sangrai_kg": 11.59
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": false,
+    "catatan": "GRN-03: 13.2%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 19.8 kg vs sangrai 20.6 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "18.6%"
+   }
+  ],
+  "status_audit": "Perlu ditinjau"
+ },
+ {
+  "fg_id": "FG-GYO-2604-005",
+  "roast_ids": "RST-011",
+  "green_id": "GRN-03",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-21",
+  "jumlah_kemasan": 63,
+  "tgl_kedaluwarsa": "2027-01-16",
+  "tujuan_distribusi": "Toko Daring",
+  "tgl_kirim": "2026-04-24",
+  "skor_intensitas": 69.2,
+  "kategori_intensitas": "Tinggi",
+  "panen": [
+   {
+    "harvest_id": "PNN-007",
+    "farm_id": "KBN-07",
+    "tgl_panen": "2025-11-13",
+    "berat_ceri_kg": 259.0,
+    "ceri_merah_persen": 96.4,
+    "ceri_apung_persen": 1.2,
+    "tgl_mulai_jemur": "2025-11-14",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2025-12-01",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.9,
+    "petani": "Pak Anwar",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Kebayakan",
+    "ketinggian_mdpl": 1444,
+    "luas_ha": 3.2,
+    "varietas": "Ateng Super"
+   },
+   {
+    "harvest_id": "PNN-008",
+    "farm_id": "KBN-08",
+    "tgl_panen": "2025-11-18",
+    "berat_ceri_kg": 485.0,
+    "ceri_merah_persen": 92.7,
+    "ceri_apung_persen": 3.8,
+    "tgl_mulai_jemur": "2025-11-19",
+    "lama_jemur_hari": 21,
+    "tgl_selesai_jemur": "2025-12-10",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.4,
+    "petani": "Bu Fatimah",
+    "kabupaten": "Bener Meriah",
+    "desa": "Permata",
+    "ketinggian_mdpl": 1432,
+    "luas_ha": 2.3,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-009",
+    "farm_id": "KBN-09",
+    "tgl_panen": "2025-11-23",
+    "berat_ceri_kg": 278.0,
+    "ceri_merah_persen": 97.6,
+    "ceri_apung_persen": 2.1,
+    "tgl_mulai_jemur": "2025-11-24",
+    "lama_jemur_hari": 19,
+    "tgl_selesai_jemur": "2025-12-13",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.8,
+    "petani": "Pak Muksin",
+    "kabupaten": "Bener Meriah",
+    "desa": "Bener Kelipah",
+    "ketinggian_mdpl": 1395,
+    "luas_ha": 1.2,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-03",
+   "harvest_ids": "PNN-007|PNN-008|PNN-009",
+   "tgl_hulling": "2025-12-24",
+   "berat_green_kg": 190.5,
+   "rendemen_persen": 18.6,
+   "ukuran_ayakan": "Screen 17",
+   "cacat_per_300g": 3,
+   "kadar_air_green_persen": 13.2,
+   "skor_cupping": 85.49,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 115
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-011",
+    "green_id": "GRN-03",
+    "tgl_roasting": "2026-04-19",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.5,
+    "suhu_charge_c": 198,
+    "suhu_drop_c": 208,
+    "durasi_menit": 12.4,
+    "susut_persen": 15.8,
+    "berat_sangrai_kg": 10.52
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": false,
+    "catatan": "GRN-03: 13.2%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": false,
+    "catatan": "kemasan 12.6 kg vs sangrai 10.5 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "18.6%"
+   }
+  ],
+  "status_audit": "Perlu ditinjau"
+ },
+ {
+  "fg_id": "FG-GYO-2603-006",
+  "roast_ids": "RST-012|RST-013|RST-014",
+  "green_id": "GRN-04",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-03-28",
+  "jumlah_kemasan": 166,
+  "tgl_kedaluwarsa": "2026-12-23",
+  "tujuan_distribusi": "Toko Kopi Bogor",
+  "tgl_kirim": "2026-04-05",
+  "skor_intensitas": 30.1,
+  "kategori_intensitas": "Rendah",
+  "panen": [
+   {
+    "harvest_id": "PNN-010",
+    "farm_id": "KBN-10",
+    "tgl_panen": "2025-11-26",
+    "berat_ceri_kg": 477.0,
+    "ceri_merah_persen": 89.7,
+    "ceri_apung_persen": 2.5,
+    "tgl_mulai_jemur": "2025-11-27",
+    "lama_jemur_hari": 21,
+    "tgl_selesai_jemur": "2025-12-18",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 12.2,
+    "petani": "Pak Darwis",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Atu Lintang",
+    "ketinggian_mdpl": 1290,
+    "luas_ha": 0.9,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-011",
+    "farm_id": "KBN-11",
+    "tgl_panen": "2025-12-01",
+    "berat_ceri_kg": 570.0,
+    "ceri_merah_persen": 95.0,
+    "ceri_apung_persen": 2.2,
+    "tgl_mulai_jemur": "2025-12-02",
+    "lama_jemur_hari": 14,
+    "tgl_selesai_jemur": "2025-12-16",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.6,
+    "petani": "Bu Halimah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Pegasing",
+    "ketinggian_mdpl": 1259,
+    "luas_ha": 1.9,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-012",
+    "farm_id": "KBN-12",
+    "tgl_panen": "2025-12-03",
+    "berat_ceri_kg": 369.0,
+    "ceri_merah_persen": 94.0,
+    "ceri_apung_persen": 0.8,
+    "tgl_mulai_jemur": "2025-12-04",
+    "lama_jemur_hari": 14,
+    "tgl_selesai_jemur": "2025-12-18",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.4,
+    "petani": "Pak Sulaiman",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Ketol",
+    "ketinggian_mdpl": 1416,
+    "luas_ha": 2.3,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-04",
+   "harvest_ids": "PNN-010|PNN-011|PNN-012",
+   "tgl_hulling": "2025-12-29",
+   "berat_green_kg": 286.0,
+   "rendemen_persen": 20.2,
+   "ukuran_ayakan": "Screen 17",
+   "cacat_per_300g": 6,
+   "kadar_air_green_persen": 11.8,
+   "skor_cupping": 85.26,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 83
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-012",
+    "green_id": "GRN-04",
+    "tgl_roasting": "2026-03-22",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.7,
+    "suhu_charge_c": 204,
+    "suhu_drop_c": 215,
+    "durasi_menit": 12.5,
+    "susut_persen": 11.4,
+    "berat_sangrai_kg": 11.26
+   },
+   {
+    "roast_id": "RST-013",
+    "green_id": "GRN-04",
+    "tgl_roasting": "2026-03-22",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.0,
+    "suhu_charge_c": 195,
+    "suhu_drop_c": 210,
+    "durasi_menit": 12.4,
+    "susut_persen": 13.2,
+    "berat_sangrai_kg": 11.28
+   },
+   {
+    "roast_id": "RST-014",
+    "green_id": "GRN-04",
+    "tgl_roasting": "2026-03-23",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.0,
+    "suhu_charge_c": 197,
+    "suhu_drop_c": 213,
+    "durasi_menit": 13.7,
+    "susut_persen": 14.9,
+    "berat_sangrai_kg": 11.06
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-04: 11.8%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 33.2 kg vs sangrai 33.6 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "20.2%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2603-007",
+  "roast_ids": "RST-015",
+  "green_id": "GRN-04",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-03-28",
+  "jumlah_kemasan": 55,
+  "tgl_kedaluwarsa": "2026-12-23",
+  "tujuan_distribusi": "Distributor Jakarta",
+  "tgl_kirim": "2026-04-02",
+  "skor_intensitas": 45.8,
+  "kategori_intensitas": "Sedang",
+  "panen": [
+   {
+    "harvest_id": "PNN-010",
+    "farm_id": "KBN-10",
+    "tgl_panen": "2025-11-26",
+    "berat_ceri_kg": 477.0,
+    "ceri_merah_persen": 89.7,
+    "ceri_apung_persen": 2.5,
+    "tgl_mulai_jemur": "2025-11-27",
+    "lama_jemur_hari": 21,
+    "tgl_selesai_jemur": "2025-12-18",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 12.2,
+    "petani": "Pak Darwis",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Atu Lintang",
+    "ketinggian_mdpl": 1290,
+    "luas_ha": 0.9,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-011",
+    "farm_id": "KBN-11",
+    "tgl_panen": "2025-12-01",
+    "berat_ceri_kg": 570.0,
+    "ceri_merah_persen": 95.0,
+    "ceri_apung_persen": 2.2,
+    "tgl_mulai_jemur": "2025-12-02",
+    "lama_jemur_hari": 14,
+    "tgl_selesai_jemur": "2025-12-16",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.6,
+    "petani": "Bu Halimah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Pegasing",
+    "ketinggian_mdpl": 1259,
+    "luas_ha": 1.9,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-012",
+    "farm_id": "KBN-12",
+    "tgl_panen": "2025-12-03",
+    "berat_ceri_kg": 369.0,
+    "ceri_merah_persen": 94.0,
+    "ceri_apung_persen": 0.8,
+    "tgl_mulai_jemur": "2025-12-04",
+    "lama_jemur_hari": 14,
+    "tgl_selesai_jemur": "2025-12-18",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.4,
+    "petani": "Pak Sulaiman",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Ketol",
+    "ketinggian_mdpl": 1416,
+    "luas_ha": 2.3,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-04",
+   "harvest_ids": "PNN-010|PNN-011|PNN-012",
+   "tgl_hulling": "2025-12-29",
+   "berat_green_kg": 286.0,
+   "rendemen_persen": 20.2,
+   "ukuran_ayakan": "Screen 17",
+   "cacat_per_300g": 6,
+   "kadar_air_green_persen": 11.8,
+   "skor_cupping": 85.26,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 83
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-015",
+    "green_id": "GRN-04",
+    "tgl_roasting": "2026-03-23",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.2,
+    "suhu_charge_c": 196,
+    "suhu_drop_c": 209,
+    "durasi_menit": 13.8,
+    "susut_persen": 14.0,
+    "berat_sangrai_kg": 11.35
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-04: 11.8%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 11.0 kg vs sangrai 11.3 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "20.2%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2603-008",
+  "roast_ids": "RST-016|RST-017",
+  "green_id": "GRN-05",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-03-26",
+  "jumlah_kemasan": 102,
+  "tgl_kedaluwarsa": "2026-12-21",
+  "tujuan_distribusi": "Kafe Kampus IPB",
+  "tgl_kirim": "2026-04-03",
+  "skor_intensitas": 38.1,
+  "kategori_intensitas": "Rendah",
+  "panen": [
+   {
+    "harvest_id": "PNN-013",
+    "farm_id": "KBN-01",
+    "tgl_panen": "2025-12-09",
+    "berat_ceri_kg": 429.0,
+    "ceri_merah_persen": 99.7,
+    "ceri_apung_persen": 1.7,
+    "tgl_mulai_jemur": "2025-12-10",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2025-12-27",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.7,
+    "petani": "Pak Ismail",
+    "kabupaten": "Bener Meriah",
+    "desa": "Bener Kelipah",
+    "ketinggian_mdpl": 1596,
+    "luas_ha": 3.0,
+    "varietas": "Ateng Super"
+   },
+   {
+    "harvest_id": "PNN-014",
+    "farm_id": "KBN-02",
+    "tgl_panen": "2025-12-13",
+    "berat_ceri_kg": 428.0,
+    "ceri_merah_persen": 92.4,
+    "ceri_apung_persen": 3.2,
+    "tgl_mulai_jemur": "2025-12-14",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2025-12-31",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.1,
+    "petani": "Bu Salmah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Atu Lintang",
+    "ketinggian_mdpl": 1462,
+    "luas_ha": 1.3,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-015",
+    "farm_id": "KBN-03",
+    "tgl_panen": "2025-12-15",
+    "berat_ceri_kg": 521.0,
+    "ceri_merah_persen": 89.8,
+    "ceri_apung_persen": 2.8,
+    "tgl_mulai_jemur": "2025-12-16",
+    "lama_jemur_hari": 14,
+    "tgl_selesai_jemur": "2025-12-30",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 12.1,
+    "petani": "Pak Rahmat",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Pegasing",
+    "ketinggian_mdpl": 1319,
+    "luas_ha": 0.8,
+    "varietas": "Ateng Super"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-05",
+   "harvest_ids": "PNN-013|PNN-014|PNN-015",
+   "tgl_hulling": "2026-01-14",
+   "berat_green_kg": 255.8,
+   "rendemen_persen": 18.6,
+   "ukuran_ayakan": "Screen 18",
+   "cacat_per_300g": 6,
+   "kadar_air_green_persen": 11.7,
+   "skor_cupping": 85.21,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 69
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-016",
+    "green_id": "GRN-05",
+    "tgl_roasting": "2026-03-24",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.0,
+    "suhu_charge_c": 197,
+    "suhu_drop_c": 211,
+    "durasi_menit": 12.9,
+    "susut_persen": 14.6,
+    "berat_sangrai_kg": 11.11
+   },
+   {
+    "roast_id": "RST-017",
+    "green_id": "GRN-05",
+    "tgl_roasting": "2026-03-24",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 11.5,
+    "suhu_charge_c": 202,
+    "suhu_drop_c": 212,
+    "durasi_menit": 13.8,
+    "susut_persen": 13.8,
+    "berat_sangrai_kg": 9.91
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-05: 11.7%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 20.4 kg vs sangrai 21.0 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "18.6%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2603-009",
+  "roast_ids": "RST-018",
+  "green_id": "GRN-05",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-03-30",
+  "jumlah_kemasan": 50,
+  "tgl_kedaluwarsa": "2026-12-25",
+  "tujuan_distribusi": "Toko Kopi Bogor",
+  "tgl_kirim": "2026-04-07",
+  "skor_intensitas": 20.3,
+  "kategori_intensitas": "Rendah",
+  "panen": [
+   {
+    "harvest_id": "PNN-013",
+    "farm_id": "KBN-01",
+    "tgl_panen": "2025-12-09",
+    "berat_ceri_kg": 429.0,
+    "ceri_merah_persen": 99.7,
+    "ceri_apung_persen": 1.7,
+    "tgl_mulai_jemur": "2025-12-10",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2025-12-27",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.7,
+    "petani": "Pak Ismail",
+    "kabupaten": "Bener Meriah",
+    "desa": "Bener Kelipah",
+    "ketinggian_mdpl": 1596,
+    "luas_ha": 3.0,
+    "varietas": "Ateng Super"
+   },
+   {
+    "harvest_id": "PNN-014",
+    "farm_id": "KBN-02",
+    "tgl_panen": "2025-12-13",
+    "berat_ceri_kg": 428.0,
+    "ceri_merah_persen": 92.4,
+    "ceri_apung_persen": 3.2,
+    "tgl_mulai_jemur": "2025-12-14",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2025-12-31",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.1,
+    "petani": "Bu Salmah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Atu Lintang",
+    "ketinggian_mdpl": 1462,
+    "luas_ha": 1.3,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-015",
+    "farm_id": "KBN-03",
+    "tgl_panen": "2025-12-15",
+    "berat_ceri_kg": 521.0,
+    "ceri_merah_persen": 89.8,
+    "ceri_apung_persen": 2.8,
+    "tgl_mulai_jemur": "2025-12-16",
+    "lama_jemur_hari": 14,
+    "tgl_selesai_jemur": "2025-12-30",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 12.1,
+    "petani": "Pak Rahmat",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Pegasing",
+    "ketinggian_mdpl": 1319,
+    "luas_ha": 0.8,
+    "varietas": "Ateng Super"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-05",
+   "harvest_ids": "PNN-013|PNN-014|PNN-015",
+   "tgl_hulling": "2026-01-14",
+   "berat_green_kg": 255.8,
+   "rendemen_persen": 18.6,
+   "ukuran_ayakan": "Screen 18",
+   "cacat_per_300g": 6,
+   "kadar_air_green_persen": 11.7,
+   "skor_cupping": 85.21,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 69
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-018",
+    "green_id": "GRN-05",
+    "tgl_roasting": "2026-03-25",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.2,
+    "suhu_charge_c": 195,
+    "suhu_drop_c": 217,
+    "durasi_menit": 11.6,
+    "susut_persen": 14.6,
+    "berat_sangrai_kg": 10.42
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-05: 11.7%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 10.0 kg vs sangrai 10.4 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "18.6%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2604-010",
+  "roast_ids": "RST-019|RST-020|RST-021",
+  "green_id": "GRN-06",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-29",
+  "jumlah_kemasan": 168,
+  "tgl_kedaluwarsa": "2027-01-24",
+  "tujuan_distribusi": "Toko Daring",
+  "tgl_kirim": "2026-05-03",
+  "skor_intensitas": 22.4,
+  "kategori_intensitas": "Rendah",
+  "panen": [
+   {
+    "harvest_id": "PNN-016",
+    "farm_id": "KBN-04",
+    "tgl_panen": "2025-12-21",
+    "berat_ceri_kg": 471.0,
+    "ceri_merah_persen": 91.2,
+    "ceri_apung_persen": 2.4,
+    "tgl_mulai_jemur": "2025-12-22",
+    "lama_jemur_hari": 14,
+    "tgl_selesai_jemur": "2026-01-05",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.0,
+    "petani": "Pak Zulkifli",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Ketol",
+    "ketinggian_mdpl": 1566,
+    "luas_ha": 2.7,
+    "varietas": "Gayo 2"
+   },
+   {
+    "harvest_id": "PNN-017",
+    "farm_id": "KBN-05",
+    "tgl_panen": "2025-12-23",
+    "berat_ceri_kg": 365.0,
+    "ceri_merah_persen": 95.5,
+    "ceri_apung_persen": 0.8,
+    "tgl_mulai_jemur": "2025-12-24",
+    "lama_jemur_hari": 15,
+    "tgl_selesai_jemur": "2026-01-08",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.2,
+    "petani": "Bu Nurhayati",
+    "kabupaten": "Bener Meriah",
+    "desa": "Wih Pesam",
+    "ketinggian_mdpl": 1542,
+    "luas_ha": 1.5,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-018",
+    "farm_id": "KBN-06",
+    "tgl_panen": "2025-12-29",
+    "berat_ceri_kg": 329.0,
+    "ceri_merah_persen": 88.4,
+    "ceri_apung_persen": 3.7,
+    "tgl_mulai_jemur": "2025-12-30",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2026-01-16",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.6,
+    "petani": "Pak Hasballah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Bebesen",
+    "ketinggian_mdpl": 1327,
+    "luas_ha": 1.9,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-06",
+   "harvest_ids": "PNN-016|PNN-017|PNN-018",
+   "tgl_hulling": "2026-02-01",
+   "berat_green_kg": 236.9,
+   "rendemen_persen": 20.3,
+   "ukuran_ayakan": "Screen 17",
+   "cacat_per_300g": 11,
+   "kadar_air_green_persen": 11.6,
+   "skor_cupping": 85.16,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 81
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-019",
+    "green_id": "GRN-06",
+    "tgl_roasting": "2026-04-23",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 14.0,
+    "suhu_charge_c": 203,
+    "suhu_drop_c": 211,
+    "durasi_menit": 13.2,
+    "susut_persen": 14.2,
+    "berat_sangrai_kg": 12.01
+   },
+   {
+    "roast_id": "RST-020",
+    "green_id": "GRN-06",
+    "tgl_roasting": "2026-04-23",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.7,
+    "suhu_charge_c": 202,
+    "suhu_drop_c": 214,
+    "durasi_menit": 12.2,
+    "susut_persen": 15.2,
+    "berat_sangrai_kg": 11.62
+   },
+   {
+    "roast_id": "RST-021",
+    "green_id": "GRN-06",
+    "tgl_roasting": "2026-01-29",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.3,
+    "suhu_charge_c": 205,
+    "suhu_drop_c": 217,
+    "durasi_menit": 11.7,
+    "susut_persen": 14.7,
+    "berat_sangrai_kg": 10.49
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-06: 11.6%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 33.6 kg vs sangrai 34.1 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": false,
+    "catatan": "ada tanggal yang mendahului tahap sebelumnya"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "20.3%"
+   }
+  ],
+  "status_audit": "Perlu ditinjau"
+ },
+ {
+  "fg_id": "FG-GYO-2604-011",
+  "roast_ids": "RST-022|RST-023",
+  "green_id": "GRN-07",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-02",
+  "jumlah_kemasan": 88,
+  "tgl_kedaluwarsa": "2026-12-28",
+  "tujuan_distribusi": "Distributor Jakarta",
+  "tgl_kirim": "2026-04-06",
+  "skor_intensitas": 41.0,
+  "kategori_intensitas": "Rendah",
+  "panen": [
+   {
+    "harvest_id": "PNN-019",
+    "farm_id": "KBN-07",
+    "tgl_panen": "2026-01-02",
+    "berat_ceri_kg": 579.0,
+    "ceri_merah_persen": 90.1,
+    "ceri_apung_persen": 3.6,
+    "tgl_mulai_jemur": "2026-01-03",
+    "lama_jemur_hari": 18,
+    "tgl_selesai_jemur": "2026-01-21",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.6,
+    "petani": "Pak Anwar",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Kebayakan",
+    "ketinggian_mdpl": 1444,
+    "luas_ha": 3.2,
+    "varietas": "Ateng Super"
+   },
+   {
+    "harvest_id": "PNN-020",
+    "farm_id": "KBN-08",
+    "tgl_panen": "2026-01-05",
+    "berat_ceri_kg": 589.0,
+    "ceri_merah_persen": 89.2,
+    "ceri_apung_persen": 3.8,
+    "tgl_mulai_jemur": "2026-01-06",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2026-01-23",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 12.1,
+    "petani": "Bu Fatimah",
+    "kabupaten": "Bener Meriah",
+    "desa": "Permata",
+    "ketinggian_mdpl": 1432,
+    "luas_ha": 2.3,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-021",
+    "farm_id": "KBN-09",
+    "tgl_panen": "2026-01-10",
+    "berat_ceri_kg": 542.0,
+    "ceri_merah_persen": 92.0,
+    "ceri_apung_persen": 1.9,
+    "tgl_mulai_jemur": "2026-01-11",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2026-01-27",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 12.3,
+    "petani": "Pak Muksin",
+    "kabupaten": "Bener Meriah",
+    "desa": "Bener Kelipah",
+    "ketinggian_mdpl": 1395,
+    "luas_ha": 1.2,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-07",
+   "harvest_ids": "PNN-019|PNN-020|PNN-021",
+   "tgl_hulling": "2026-02-15",
+   "berat_green_kg": 365.6,
+   "rendemen_persen": 21.4,
+   "ukuran_ayakan": "Screen 17",
+   "cacat_per_300g": 12,
+   "kadar_air_green_persen": 10.7,
+   "skor_cupping": 85.1,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 43
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-022",
+    "green_id": "GRN-07",
+    "tgl_roasting": "2026-03-30",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 10.3,
+    "suhu_charge_c": 196,
+    "suhu_drop_c": 208,
+    "durasi_menit": 11.5,
+    "susut_persen": 13.2,
+    "berat_sangrai_kg": 8.94
+   },
+   {
+    "roast_id": "RST-023",
+    "green_id": "GRN-07",
+    "tgl_roasting": "2026-03-30",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 11.2,
+    "suhu_charge_c": 197,
+    "suhu_drop_c": 212,
+    "durasi_menit": 13.4,
+    "susut_persen": 16.0,
+    "berat_sangrai_kg": 9.4
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-07: 10.7%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 17.6 kg vs sangrai 18.3 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "21.4%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2604-012",
+  "roast_ids": "RST-024|RST-025|RST-026",
+  "green_id": "GRN-07",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-04",
+  "jumlah_kemasan": 156,
+  "tgl_kedaluwarsa": "2026-12-30",
+  "tujuan_distribusi": "Kafe Kampus IPB",
+  "tgl_kirim": "2026-04-12",
+  "skor_intensitas": 44.9,
+  "kategori_intensitas": "Sedang",
+  "panen": [
+   {
+    "harvest_id": "PNN-019",
+    "farm_id": "KBN-07",
+    "tgl_panen": "2026-01-02",
+    "berat_ceri_kg": 579.0,
+    "ceri_merah_persen": 90.1,
+    "ceri_apung_persen": 3.6,
+    "tgl_mulai_jemur": "2026-01-03",
+    "lama_jemur_hari": 18,
+    "tgl_selesai_jemur": "2026-01-21",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.6,
+    "petani": "Pak Anwar",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Kebayakan",
+    "ketinggian_mdpl": 1444,
+    "luas_ha": 3.2,
+    "varietas": "Ateng Super"
+   },
+   {
+    "harvest_id": "PNN-020",
+    "farm_id": "KBN-08",
+    "tgl_panen": "2026-01-05",
+    "berat_ceri_kg": 589.0,
+    "ceri_merah_persen": 89.2,
+    "ceri_apung_persen": 3.8,
+    "tgl_mulai_jemur": "2026-01-06",
+    "lama_jemur_hari": 17,
+    "tgl_selesai_jemur": "2026-01-23",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 12.1,
+    "petani": "Bu Fatimah",
+    "kabupaten": "Bener Meriah",
+    "desa": "Permata",
+    "ketinggian_mdpl": 1432,
+    "luas_ha": 2.3,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-021",
+    "farm_id": "KBN-09",
+    "tgl_panen": "2026-01-10",
+    "berat_ceri_kg": 542.0,
+    "ceri_merah_persen": 92.0,
+    "ceri_apung_persen": 1.9,
+    "tgl_mulai_jemur": "2026-01-11",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2026-01-27",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 12.3,
+    "petani": "Pak Muksin",
+    "kabupaten": "Bener Meriah",
+    "desa": "Bener Kelipah",
+    "ketinggian_mdpl": 1395,
+    "luas_ha": 1.2,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-07",
+   "harvest_ids": "PNN-019|PNN-020|PNN-021",
+   "tgl_hulling": "2026-02-15",
+   "berat_green_kg": 365.6,
+   "rendemen_persen": 21.4,
+   "ukuran_ayakan": "Screen 17",
+   "cacat_per_300g": 12,
+   "kadar_air_green_persen": 10.7,
+   "skor_cupping": 85.1,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 43
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-024",
+    "green_id": "GRN-07",
+    "tgl_roasting": "2026-03-31",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 14.0,
+    "suhu_charge_c": 197,
+    "suhu_drop_c": 217,
+    "durasi_menit": 14.1,
+    "susut_persen": 14.8,
+    "berat_sangrai_kg": 11.93
+   },
+   {
+    "roast_id": "RST-025",
+    "green_id": "GRN-07",
+    "tgl_roasting": "2026-03-31",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 11.6,
+    "suhu_charge_c": 200,
+    "suhu_drop_c": 209,
+    "durasi_menit": 12.0,
+    "susut_persen": 13.8,
+    "berat_sangrai_kg": 10.0
+   },
+   {
+    "roast_id": "RST-026",
+    "green_id": "GRN-07",
+    "tgl_roasting": "2026-04-01",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.0,
+    "suhu_charge_c": 196,
+    "suhu_drop_c": 209,
+    "durasi_menit": 11.7,
+    "susut_persen": 16.3,
+    "berat_sangrai_kg": 10.05
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-07: 10.7%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 31.2 kg vs sangrai 32.0 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "21.4%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2604-013",
+  "roast_ids": "RST-027|RST-028",
+  "green_id": "GRN-08",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-24",
+  "jumlah_kemasan": 106,
+  "tgl_kedaluwarsa": "2027-01-19",
+  "tujuan_distribusi": "Toko Daring",
+  "tgl_kirim": "2026-04-30",
+  "skor_intensitas": 45.7,
+  "kategori_intensitas": "Sedang",
+  "panen": [
+   {
+    "harvest_id": "PNN-022",
+    "farm_id": "KBN-10",
+    "tgl_panen": "2026-01-12",
+    "berat_ceri_kg": 379.0,
+    "ceri_merah_persen": 88.9,
+    "ceri_apung_persen": 1.7,
+    "tgl_mulai_jemur": "2026-01-13",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2026-01-29",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.3,
+    "petani": "Pak Darwis",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Atu Lintang",
+    "ketinggian_mdpl": 1290,
+    "luas_ha": 0.9,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-023",
+    "farm_id": "KBN-11",
+    "tgl_panen": "2026-01-18",
+    "berat_ceri_kg": 265.0,
+    "ceri_merah_persen": 90.7,
+    "ceri_apung_persen": 3.9,
+    "tgl_mulai_jemur": "2026-01-19",
+    "lama_jemur_hari": 21,
+    "tgl_selesai_jemur": "2026-02-09",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.5,
+    "petani": "Bu Halimah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Pegasing",
+    "ketinggian_mdpl": 1259,
+    "luas_ha": 1.9,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-024",
+    "farm_id": "KBN-12",
+    "tgl_panen": "2026-01-21",
+    "berat_ceri_kg": 605.0,
+    "ceri_merah_persen": 95.2,
+    "ceri_apung_persen": 2.5,
+    "tgl_mulai_jemur": "2026-01-22",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2026-02-07",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.2,
+    "petani": "Pak Sulaiman",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Ketol",
+    "ketinggian_mdpl": 1416,
+    "luas_ha": 2.3,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-08",
+   "harvest_ids": "PNN-022|PNN-023|PNN-024",
+   "tgl_hulling": "2026-02-20",
+   "berat_green_kg": 254.5,
+   "rendemen_persen": 20.4,
+   "ukuran_ayakan": "Screen 18",
+   "cacat_per_300g": 6,
+   "kadar_air_green_persen": 10.6,
+   "skor_cupping": 84.49,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 58
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-027",
+    "green_id": "GRN-08",
+    "tgl_roasting": "2026-04-19",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 12.5,
+    "suhu_charge_c": 200,
+    "suhu_drop_c": 217,
+    "durasi_menit": 12.9,
+    "susut_persen": 14.7,
+    "berat_sangrai_kg": 10.66
+   },
+   {
+    "roast_id": "RST-028",
+    "green_id": "GRN-08",
+    "tgl_roasting": "2026-04-19",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.5,
+    "suhu_charge_c": 199,
+    "suhu_drop_c": 210,
+    "durasi_menit": 11.2,
+    "susut_persen": 15.2,
+    "berat_sangrai_kg": 11.45
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-08: 10.6%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 21.2 kg vs sangrai 22.1 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "20.4%"
+   }
+  ],
+  "status_audit": "Lulus"
+ },
+ {
+  "fg_id": "FG-GYO-2604-014",
+  "roast_ids": "RST-029|RST-030|RST-031",
+  "green_id": "GRN-08",
+  "produk": "Kopi Arabika Gayo Natural - Medium Roast - 200 g",
+  "tgl_kemas": "2026-04-26",
+  "jumlah_kemasan": 147,
+  "tgl_kedaluwarsa": "2027-01-21",
+  "tujuan_distribusi": "Toko Daring",
+  "tgl_kirim": "2026-05-04",
+  "skor_intensitas": 47.2,
+  "kategori_intensitas": "Tinggi",
+  "panen": [
+   {
+    "harvest_id": "PNN-022",
+    "farm_id": "KBN-10",
+    "tgl_panen": "2026-01-12",
+    "berat_ceri_kg": 379.0,
+    "ceri_merah_persen": 88.9,
+    "ceri_apung_persen": 1.7,
+    "tgl_mulai_jemur": "2026-01-13",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2026-01-29",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.3,
+    "petani": "Pak Darwis",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Atu Lintang",
+    "ketinggian_mdpl": 1290,
+    "luas_ha": 0.9,
+    "varietas": "Gayo 1"
+   },
+   {
+    "harvest_id": "PNN-023",
+    "farm_id": "KBN-11",
+    "tgl_panen": "2026-01-18",
+    "berat_ceri_kg": 265.0,
+    "ceri_merah_persen": 90.7,
+    "ceri_apung_persen": 3.9,
+    "tgl_mulai_jemur": "2026-01-19",
+    "lama_jemur_hari": 21,
+    "tgl_selesai_jemur": "2026-02-09",
+    "metode_jemur": "Para-para (raised bed)",
+    "kadar_air_kering_persen": 11.5,
+    "petani": "Bu Halimah",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Pegasing",
+    "ketinggian_mdpl": 1259,
+    "luas_ha": 1.9,
+    "varietas": "Bourbon"
+   },
+   {
+    "harvest_id": "PNN-024",
+    "farm_id": "KBN-12",
+    "tgl_panen": "2026-01-21",
+    "berat_ceri_kg": 605.0,
+    "ceri_merah_persen": 95.2,
+    "ceri_apung_persen": 2.5,
+    "tgl_mulai_jemur": "2026-01-22",
+    "lama_jemur_hari": 16,
+    "tgl_selesai_jemur": "2026-02-07",
+    "metode_jemur": "Terpal/lantai jemur",
+    "kadar_air_kering_persen": 11.2,
+    "petani": "Pak Sulaiman",
+    "kabupaten": "Aceh Tengah",
+    "desa": "Ketol",
+    "ketinggian_mdpl": 1416,
+    "luas_ha": 2.3,
+    "varietas": "Gayo 2"
+   }
+  ],
+  "green": {
+   "green_id": "GRN-08",
+   "harvest_ids": "PNN-022|PNN-023|PNN-024",
+   "tgl_hulling": "2026-02-20",
+   "berat_green_kg": 254.5,
+   "rendemen_persen": 20.4,
+   "ukuran_ayakan": "Screen 18",
+   "cacat_per_300g": 6,
+   "kadar_air_green_persen": 10.6,
+   "skor_cupping": 84.49,
+   "gudang": "Gudang Green Bean Takengon",
+   "lama_simpan_hari": 58
+  },
+  "roasting": [
+   {
+    "roast_id": "RST-029",
+    "green_id": "GRN-08",
+    "tgl_roasting": "2026-04-20",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 13.9,
+    "suhu_charge_c": 196,
+    "suhu_drop_c": 210,
+    "durasi_menit": 13.2,
+    "susut_persen": 12.2,
+    "berat_sangrai_kg": 12.21
+   },
+   {
+    "roast_id": "RST-030",
+    "green_id": "GRN-08",
+    "tgl_roasting": "2026-04-20",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 10.8,
+    "suhu_charge_c": 197,
+    "suhu_drop_c": 212,
+    "durasi_menit": 12.2,
+    "susut_persen": 14.3,
+    "berat_sangrai_kg": 9.25
+   },
+   {
+    "roast_id": "RST-031",
+    "green_id": "GRN-08",
+    "tgl_roasting": "2026-04-21",
+    "mesin": "Roaster drum 15 kg",
+    "level": "Medium",
+    "muatan_green_kg": 10.2,
+    "suhu_charge_c": 200,
+    "suhu_drop_c": 211,
+    "durasi_menit": 12.7,
+    "susut_persen": 15.3,
+    "berat_sangrai_kg": 8.64
+   }
+  ],
+  "audit": [
+   {
+    "aturan": "Kadar air green bean <= 12,5%",
+    "lulus": true,
+    "catatan": "GRN-08: 10.6%"
+   },
+   {
+    "aturan": "Susut roasting 10-20%",
+    "lulus": true,
+    "catatan": "semua batch wajar"
+   },
+   {
+    "aturan": "Neraca massa: berat kemasan <= berat sangrai",
+    "lulus": true,
+    "catatan": "kemasan 29.4 kg vs sangrai 30.1 kg"
+   },
+   {
+    "aturan": "Data lot panen lengkap",
+    "lulus": true,
+    "catatan": "lengkap"
+   },
+   {
+    "aturan": "Urutan tanggal logis (panen > jemur > hulling > roasting > kemas > kirim)",
+    "lulus": true,
+    "catatan": "berurutan"
+   },
+   {
+    "aturan": "Rendemen ceri ke green bean 15-25%",
+    "lulus": true,
+    "catatan": "20.4%"
+   }
+  ],
+  "status_audit": "Lulus"
+ }
+]

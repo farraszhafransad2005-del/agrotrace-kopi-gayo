@@ -1,0 +1,102 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AgroTrace Kopi Gayo</title>
+<style>
+:root{--esp:#2E1A0E;--roast:#6F4E37;--red:#A4442A;--crema:#C8A27A;--cream:#F6EEE1;--card:#FFFBF4;--leaf:#5E7C4A;--warn:#C0392B;--ok:#3E7C4F;--m:#7a6757;--l:#E5D6C0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Segoe UI",Calibri,Arial,sans-serif;background:var(--cream);color:var(--esp);font-size:16px;line-height:1.5}
+header{background:linear-gradient(135deg,var(--esp),var(--roast));color:#fff;padding:22px 20px 0}
+.in{max-width:1100px;margin:0 auto}
+.brand{display:flex;gap:14px;align-items:center}.brand h1{margin:0;font-size:24px}.brand p{margin:2px 0 0;opacity:.8;font-size:14px}
+nav{display:flex;gap:4px;margin-top:18px;overflow-x:auto}nav button{background:transparent;border:0;color:#e8d8c0;padding:12px 18px;font-size:15px;cursor:pointer;border-radius:10px 10px 0 0;white-space:nowrap}
+nav button.on{background:var(--cream);color:var(--esp);font-weight:700}
+.demo{background:#F3DFC1;color:#6b4423;font-size:13px;padding:7px 20px;text-align:center}
+main{max-width:1100px;margin:0 auto;padding:22px 20px 60px}section{display:none}section.on{display:block}
+.card{background:var(--card);border:1px solid var(--l);border-radius:14px;padding:18px;margin-bottom:16px;box-shadow:0 1px 3px rgba(46,26,14,.06)}
+h2{margin:0 0 6px;font-size:21px}h3{margin:0 0 8px;font-size:17px}.sub{color:var(--m);font-size:14px;margin:0 0 12px}
+.search{display:flex;gap:10px;flex-wrap:wrap}.search input,.search select{flex:1;min-width:220px;padding:13px 14px;border:2px solid var(--crema);border-radius:10px;font-size:17px;background:#fff;color:var(--esp)}
+.btn{background:var(--red);color:#fff;border:0;padding:12px 20px;border-radius:10px;font-size:16px;cursor:pointer;font-weight:600}.btn.s{background:#fff;color:var(--red);border:2px solid var(--red)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.chip{background:#fff;border:1px solid var(--crema);padding:6px 12px;border-radius:20px;font-size:13px;cursor:pointer}.chip:hover{background:var(--crema)}
+.badge{display:inline-block;padding:4px 12px;border-radius:20px;font-weight:700;font-size:13px}.ok{background:#DDEEDD;color:var(--ok)}.bad{background:#F8DAD5;color:var(--warn)}
+.top{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}.story{font-size:17px;margin:10px 0}
+.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin:18px 0}.step{text-align:center;cursor:pointer;position:relative;padding-top:4px}
+.dot{width:46px;height:46px;border-radius:50%;background:var(--crema);color:var(--esp);display:flex;align-items:center;justify-content:center;margin:0 auto 6px;font-weight:700;font-size:18px;border:3px solid transparent;transition:.15s}
+.step.on .dot{background:var(--red);color:#fff;border-color:var(--esp);transform:scale(1.1)}.step small{display:block;font-size:13px;color:var(--m)}.step.on small{color:var(--esp);font-weight:700}
+.step:not(:last-child):after{content:"";position:absolute;top:27px;left:calc(50% + 28px);width:calc(100% - 56px);height:3px;background:var(--crema)}
+.det{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}.f{background:#fff;border:1px solid var(--l);border-radius:10px;padding:10px 12px}.f span{display:block;font-size:12px;color:var(--m)}.f b{font-size:17px}
+table{border-collapse:collapse;width:100%;font-size:14px}th{background:var(--roast);color:#fff;text-align:left;padding:8px}td{padding:8px;border-bottom:1px solid var(--l)}.tw{overflow-x:auto}
+.kpi{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:16px}.k{background:var(--card);border:1px solid var(--l);border-radius:14px;padding:14px;border-left:6px solid var(--red)}.k b{font-size:28px;display:block}.k span{font-size:13px;color:var(--m)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.note{background:#F3E4CC;border-left:5px solid var(--red);padding:10px 14px;border-radius:6px;font-size:14px;margin-top:12px}
+.qr{text-align:center}.qr img{width:150px;border:6px solid #fff;border-radius:8px}.tip{font-size:13px;color:var(--m)}
+details{background:#fff;border:1px solid var(--l);border-radius:10px;padding:10px 14px;margin-bottom:8px}summary{cursor:pointer;font-weight:600}
+@media(max-width:760px){.top{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}.steps{grid-template-columns:repeat(3,1fr);row-gap:16px}.step:after{display:none!important}}
+</style></head><body>
+<header><div class="in"><div class="brand">
+<svg width="48" height="48" viewBox="0 0 48 48"><ellipse cx="24" cy="24" rx="15" ry="20" transform="rotate(25 24 24)" fill="#C8A27A"/><path d="M14 8c6 8-4 14 4 22s0 10 4 12" transform="rotate(25 24 24)" stroke="#2E1A0E" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+<div><h1>AgroTrace Carbon Passport</h1><p>Telusuri kopi Arabika Gayo dari kebun sampai kemasan</p></div></div>
+<nav id="nav"></nav></div></header>
+<div class="demo">Data simulasi untuk prototipe (bukan data lot nyata). Skor intensitas adalah proxy proses, bukan nilai emisi karbon.</div>
+<main>
+<section id="s0"><div class="card"><h2>Telusuri satu batch kopi</h2><p class="sub">Ketik kode batch pada kemasan, atau pilih dari daftar. Hasilnya menunjukkan perjalanan kopi dari petani sampai kemasan.</p>
+<div class="search"><input id="q" list="dl" placeholder="mis. FG-GYO-2603-001"><datalist id="dl"></datalist><button class="btn" onclick="cari()">Telusuri</button></div>
+<div class="chips" id="chips"></div></div><div id="hasil"></div></section>
+<section id="s1"><div class="kpi" id="kpi"></div><div class="grid2"><div class="card"><div id="c1"></div></div><div class="card"><div id="c2"></div></div><div class="card"><div id="c3"></div></div><div class="card"><div id="c4"></div></div></div>
+<div class="note">Skor intensitas proses = proxy relatif antar batch (lama jemur 40%, durasi roasting 30%, susut roasting 30%), berdasarkan asumsi tim. Bukan besaran emisi karbon.</div></section>
+<section id="s2"><div class="card"><h2>Audit otomatis</h2><p class="sub">Setiap batch diperiksa dengan 6 aturan. Sebagian temuan sengaja disisipkan pada data simulasi, sebagian muncul dari variasi acak, untuk menunjukkan cara kerja audit.</p><div id="aud"></div></div></section>
+<section id="s3"><div class="card"><h2>Cara membaca dashboard ini</h2>
+<details open><summary>Apa itu batch dan bagaimana rantainya?</summary><p>Kopi dilacak dalam 6 tahap: <b>1 Panen</b> (petani dan kebun), <b>2 Pascapanen</b> (penjemuran natural), <b>3 Green bean</b> (hulling dan mutu), <b>4 Roasting</b>, <b>5 Kemas</b> (barang jadi), <b>6 Distribusi</b>. Satu kemasan berasal dari satu batch barang jadi. Batch itu berasal dari 1 sampai 3 batch roasting, satu lot green bean, dan 3 lot panen dari beberapa petani.</p></details>
+<details><summary>Arti status audit</summary><p><b>Lulus</b>: semua aturan terpenuhi. <b>Perlu ditinjau</b>: ada aturan yang tidak terpenuhi, buka tab Audit untuk melihat alasannya. Satu temuan pada lot green bean ikut menandai semua batch dari lot yang sama.</p></details>
+<details><summary>Istilah singkat</summary><p><b>Natural</b>: ceri kopi dijemur utuh. <b>Hulling</b>: pengupasan kulit kering. <b>Rendemen</b>: berat green bean dibanding berat ceri. <b>Susut roasting</b>: bobot yang hilang saat disangrai. <b>Skor cupping</b>: nilai uji rasa (80+ = specialty).</p></details>
+<details><summary>Batasan</summary><p>Data simulasi. Skor intensitas adalah asumsi tim dan bukan emisi karbon. Sistem ini menunjukkan ketertelusuran dan transparansi data, bukan jaminan anti-manipulasi.</p></details>
+<p><button class="btn s" onclick="dl()">Unduh data paspor (JSON)</button></p></div></section>
+</main>
+<script>/*PLOTLY*/</script>
+<script>
+const DATA=/*DATA*/[];
+const BASE="/*BASE*/";
+const $=id=>document.getElementById(id),tgl=s=>s?new Date(s).toLocaleDateString("id-ID",{day:"numeric",month:"short",year:"numeric"}):"-";
+const n1=(v,u="")=>v==null?"<i>tidak tercatat</i>":(+v).toLocaleString("id-ID",{maximumFractionDigits:1})+u;
+const T=["Telusuri Batch","Ringkasan","Audit","Panduan"];let cur=0,step=0,P=null;
+T.forEach((t,i)=>{const b=document.createElement("button");b.textContent=t;b.onclick=()=>tab(i);$("nav").appendChild(b)});
+function tab(i){cur=i;[...$("nav").children].forEach((b,j)=>b.className=j==i?"on":"");for(let j=0;j<4;j++)$("s"+j).className=j==i?"on":"";if(i==1)ringkas();if(i==2)audit()}
+DATA.forEach(d=>$("dl").appendChild(Object.assign(document.createElement("option"),{value:d.fg_id})));
+DATA.slice(0,6).forEach(d=>{const c=document.createElement("span");c.className="chip";c.textContent=d.fg_id;c.onclick=()=>{$("q").value=d.fg_id;cari()};$("chips").appendChild(c)});
+$("q").addEventListener("keydown",e=>e.key=="Enter"&&cari());
+function cari(){const v=$("q").value.trim().toUpperCase();P=DATA.find(d=>d.fg_id.toUpperCase()==v);step=0;
+ if(!P){$("hasil").innerHTML='<div class="card"><b>Kode batch tidak ditemukan.</b> Periksa penulisan kode, atau pilih salah satu contoh di atas.</div>';return}
+ location.hash=P.fg_id;hasil()}
+function hasil(){const g=P.green,rs=P.roasting,hs=P.panen,ok=P.status_audit=="Lulus";
+ const kg=rs.reduce((a,r)=>a+r.berat_sangrai_kg,0),petani=[...new Set(hs.map(h=>h.petani))];
+ const gagal=P.audit.filter(a=>!a.lulus);
+ const kode=BASE?BASE+"#"+P.fg_id:"AGROTRACE|"+P.fg_id;
+ $("hasil").innerHTML=`<div class="card"><div class="top"><div><span class="badge ${ok?"ok":"bad"}">${ok?"Audit: Lulus":"Audit: Perlu ditinjau"}</span>
+ <h2 style="margin-top:8px">${P.fg_id}</h2><div class="sub">${P.produk}</div>
+ <p class="story">Batch ini berisi <b>${P.jumlah_kemasan.toLocaleString("id-ID")} kemasan</b>, dikemas ${tgl(P.tgl_kemas)}. Kopinya dipanen dari <b>${petani.length} petani</b> di ${[...new Set(hs.map(h=>h.kabupaten))].join(" dan ")}, dijemur ${n1(hs.reduce((a,h)=>a+h.lama_jemur_hari,0)/hs.length)} hari rata-rata, lalu disangrai pada ${rs.length} batch roasting. Skor cupping green bean <b>${g.skor_cupping}</b>.</p>
+ ${gagal.length?`<div class="note"><b>Temuan audit:</b> ${gagal.map(a=>a.aturan+" ("+a.catatan+")").join("; ")}</div>`:""}</div>
+ <div class="qr"><img id="qrimg" src="data:image/png;base64,${P.qr}"><div class="tip">QR Passport batch ini</div><a download="qr_${P.fg_id}.png" href="data:image/png;base64,${P.qr}"><button class="btn s" style="margin-top:6px;padding:7px 12px;font-size:13px">Unduh QR</button></a></div></div>
+ <div class="steps" id="steps"></div><div id="sd"></div></div>`;
+ const nm=["Panen","Pascapanen","Green bean","Roasting","Kemas","Distribusi"];
+ nm.forEach((x,i)=>{const d=document.createElement("div");d.className="step"+(i==step?" on":"");d.innerHTML=`<div class="dot">${i+1}</div><small>${x}</small>`;d.onclick=()=>{step=i;hasil()};$("steps").appendChild(d)});
+ const f=(l,v)=>`<div class="f"><span>${l}</span><b>${v}</b></div>`;let h="";
+ if(step==0)h=`<h3>1. Panen: asal petani dan kebun</h3><div class="tw"><table><tr><th>Lot</th><th>Petani</th><th>Desa</th><th>Varietas</th><th>Ketinggian</th><th>Tgl panen</th><th>Ceri (kg)</th><th>Ceri merah</th></tr>${hs.map(x=>`<tr><td>${x.harvest_id}</td><td>${x.petani}</td><td>${x.desa}, ${x.kabupaten}</td><td>${x.varietas}</td><td>${x.ketinggian_mdpl} mdpl</td><td>${tgl(x.tgl_panen)}</td><td>${n1(x.berat_ceri_kg)}</td><td>${n1(x.ceri_merah_persen,"%")}</td></tr>`).join("")}</table></div>`;
+ if(step==1)h=`<h3>2. Pascapanen: penjemuran natural</h3><div class="tw"><table><tr><th>Lot</th><th>Metode</th><th>Mulai jemur</th><th>Selesai</th><th>Lama</th><th>Kadar air akhir</th><th>Ceri apung</th></tr>${hs.map(x=>`<tr><td>${x.harvest_id}</td><td>${x.metode_jemur}</td><td>${tgl(x.tgl_mulai_jemur)}</td><td>${tgl(x.tgl_selesai_jemur)}</td><td>${x.lama_jemur_hari} hari</td><td>${n1(x.kadar_air_kering_persen,"%")}</td><td>${n1(x.ceri_apung_persen,"%")}</td></tr>`).join("")}</table></div>`;
+ if(step==2)h=`<h3>3. Green bean: ${g.green_id}</h3><div class="det">${f("Tanggal hulling",tgl(g.tgl_hulling))}${f("Berat green bean",n1(g.berat_green_kg," kg"))}${f("Rendemen dari ceri",n1(g.rendemen_persen,"%"))}${f("Ukuran ayakan",g.ukuran_ayakan)}${f("Cacat per 300 g",g.cacat_per_300g)}${f("Kadar air",n1(g.kadar_air_green_persen,"%"))}${f("Skor cupping",g.skor_cupping)}${f("Gudang",g.gudang)}${f("Lama simpan",g.lama_simpan_hari+" hari")}</div>`;
+ if(step==3)h=`<h3>4. Roasting: ${rs.length} batch, ${n1(kg," kg")} kopi sangrai</h3><div class="tw"><table><tr><th>Batch</th><th>Tanggal</th><th>Muatan</th><th>Suhu charge/drop</th><th>Durasi</th><th>Susut</th><th>Hasil</th></tr>${rs.map(x=>`<tr><td>${x.roast_id}</td><td>${tgl(x.tgl_roasting)}</td><td>${n1(x.muatan_green_kg," kg")}</td><td>${x.suhu_charge_c} / ${x.suhu_drop_c} °C</td><td>${n1(x.durasi_menit," mnt")}</td><td>${n1(x.susut_persen,"%")}</td><td>${n1(x.berat_sangrai_kg," kg")}</td></tr>`).join("")}</table></div><p class="tip">Mesin: ${rs[0].mesin} · Level: ${rs[0].level}</p>`;
+ if(step==4)h=`<h3>5. Kemas: barang jadi</h3><div class="det">${f("Kode batch",P.fg_id)}${f("Tanggal kemas",tgl(P.tgl_kemas))}${f("Jumlah kemasan (200 g)",P.jumlah_kemasan.toLocaleString("id-ID"))}${f("Kedaluwarsa",tgl(P.tgl_kedaluwarsa))}${f("Skor intensitas proses",P.skor_intensitas+" ("+P.kategori_intensitas+")")}</div><div class="note">Skor intensitas adalah proxy proses relatif antar batch, bukan emisi karbon.</div>`;
+ if(step==5)h=`<h3>6. Distribusi</h3><div class="det">${f("Tujuan",P.tujuan_distribusi)}${f("Tanggal kirim",tgl(P.tgl_kirim))}${f("Jumlah dikirim",P.jumlah_kemasan.toLocaleString("id-ID")+" kemasan")}</div>`;
+ $("sd").innerHTML=h}
+const C=["#6F4E37","#A4442A","#C8A27A","#5E7C4A"],L={paper_bgcolor:"rgba(0,0,0,0)",plot_bgcolor:"rgba(0,0,0,0)",font:{family:"Segoe UI",color:"#2E1A0E"},margin:{t:44,l:50,r:10,b:50}};
+function ringkas(){const tk=DATA.reduce((a,d)=>a+d.jumlah_kemasan,0),ok=DATA.filter(d=>d.status_audit=="Lulus").length;
+ const gl={};DATA.forEach(d=>gl[d.green.green_id]=d.green);const gs=Object.values(gl);
+ $("kpi").innerHTML=[["Batch barang jadi",DATA.length],["Total kemasan 200 g",tk.toLocaleString("id-ID")],["Rata-rata skor cupping",(gs.reduce((a,g)=>a+g.skor_cupping,0)/gs.length).toFixed(1)],["Batch lulus audit",ok+" dari "+DATA.length],["Petani terlibat",new Set(DATA.flatMap(d=>d.panen.map(h=>h.petani))).size]].map(x=>`<div class="k"><b>${x[1]}</b><span>${x[0]}</span></div>`).join("");
+ Plotly.react("c1",[{x:gs.map(g=>g.green_id),y:gs.map(g=>g.skor_cupping),type:"bar",marker:{color:C[0]}}],{...L,title:{text:"Skor cupping per lot green bean"},yaxis:{range:[78,90]}},{displayModeBar:false});
+ const rs=DATA.flatMap(d=>d.roasting);Plotly.react("c2",[{x:rs.map(r=>r.durasi_menit),y:rs.map(r=>r.susut_persen),mode:"markers",text:rs.map(r=>r.roast_id),marker:{color:C[1],size:9,opacity:.75}}],{...L,title:{text:"Durasi roasting vs susut"},xaxis:{title:{text:"durasi (menit)"}},yaxis:{title:{text:"susut (%)"}}},{displayModeBar:false});
+ const hs=[...new Map(DATA.flatMap(d=>d.panen).map(h=>[h.harvest_id,h])).values()];
+ Plotly.react("c3",[{x:hs.map(h=>h.lama_jemur_hari),y:hs.map(h=>h.kadar_air_kering_persen),mode:"markers",text:hs.map(h=>h.petani),marker:{color:C[3],size:9,opacity:.75}}],{...L,title:{text:"Lama jemur vs kadar air"},xaxis:{title:{text:"lama jemur (hari)"}},yaxis:{title:{text:"kadar air (%)"}}},{displayModeBar:false});
+ const o=[...DATA].sort((a,b)=>a.tgl_kemas>b.tgl_kemas?1:-1);const col={Rendah:C[3],Sedang:C[2],Tinggi:C[1]};
+ Plotly.react("c4",[{x:o.map(d=>d.fg_id.slice(-8)),y:o.map(d=>d.skor_intensitas),type:"bar",marker:{color:o.map(d=>col[d.kategori_intensitas])}}],{...L,title:{text:"Skor intensitas proses per batch"},yaxis:{title:{text:"skor (0-100)"}},xaxis:{tickangle:-45}},{displayModeBar:false})}
+function audit(){const rules=DATA[0].audit.map(a=>a.aturan);
+ $("aud").innerHTML=`<div class="tw"><table><tr><th>Batch</th><th>Status</th>${rules.map((r,i)=>`<th title="${r}">R${i+1}</th>`).join("")}</tr>${DATA.map(d=>`<tr><td><a href="#${d.fg_id}" onclick="$('q').value='${d.fg_id}';tab(0);cari();return false" style="color:#A4442A">${d.fg_id}</a></td><td><span class="badge ${d.status_audit=="Lulus"?"ok":"bad"}">${d.status_audit}</span></td>${d.audit.map(a=>`<td title="${a.catatan}">${a.lulus?"✓":'<b style="color:#C0392B">✗</b>'}</td>`).join("")}</tr>`).join("")}</table></div>
+ <h3 style="margin-top:16px">Keterangan aturan</h3><ol>${rules.map(r=>`<li>${r}</li>`).join("")}</ol><p class="tip">Arahkan kursor ke tanda ✓/✗ untuk melihat catatan, atau klik kode batch untuk membuka paspornya.</p>`}
+function dl(){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(DATA.map(({qr,...r})=>r),null,1)],{type:"application/json"}));a.download="paspor.json";a.click()}
+tab(0);const h0=decodeURIComponent(location.hash.slice(1));if(h0){$("q").value=h0;cari()}
+</script></body></html>
